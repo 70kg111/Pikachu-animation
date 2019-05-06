@@ -1,6 +1,8 @@
 !function () {
     
     let code = `
+/* 画一个皮卡丘吧 */
+
 /* 先设置一些样式 */
 .preview{
     height: 100%;
@@ -171,7 +173,7 @@
                 window.clearInterval(clock)
                 fn && fn.call()
             }
-        }, 0)
+        }, 50)
     }
 
     function playPika(){
