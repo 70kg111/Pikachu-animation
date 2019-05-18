@@ -173,7 +173,7 @@
                 window.clearInterval(clock)
                 fn && fn.call()
             }
-        }, 50)
+        }, 10)
     }
 
     function playPika(){
